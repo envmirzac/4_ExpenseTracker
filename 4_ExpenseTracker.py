@@ -63,12 +63,12 @@ def create_ui():
     pig_label = tk.Label(window, image=pig_image)
     pig_label.pack()
 
-    description_label = tk.Label(window, text='Description:', font=('Arial', 14))
+    description_label = tk.Label(window, text='Expense Description:', font=('Arial', 14))
     description_label.pack()
     description_entry = tk.Entry(window, font=('Arial', 12))
     description_entry.pack()
 
-    amount_label = tk.Label(window, text='Amount:', font=('Arial', 14))
+    amount_label = tk.Label(window, text='Expense Amount:', font=('Arial', 14))
     amount_label.pack()
     amount_entry = tk.Entry(window, font=('Arial', 12))
     amount_entry.pack()
